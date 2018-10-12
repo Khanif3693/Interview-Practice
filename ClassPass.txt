@@ -1,0 +1,26 @@
+#This question was asked in an interview of ClassPass.
+"' Question: We are given a Number N and a string with space separated as shown below. The Number represents
+the number of rows in a seat arrangement in a plane and strings represents the seats already occupied or booked. 
+We have to asked to book a seat for a family of three members and they all want their seats nearby. We have seat arrangement
+as follows:
+1------>  A-B-C   D-E-F-G   H-J-K
+2------>  A-B-C   D-E-F-G   H-J-K
+
+Numbers 1 and two represents the rows number and Alphabets are columns.
+Please note that C-D or G-H are not consecutive.
+
+See example
+Function-> Solution(N,S)  --> N->Numbers (Rows),S->String (seat already filled) ----> should return available seats 
+for family of 3 members.
+
+Example:  Solution(2, "1A 1D 2B") --> Should return 4
+
+1------>  A-B-C   D-E-F-G   H-J-K (1A and 1D occupied so we have EFG and HJK avilable for three)
+          
+2------>  A-B-C   D-E-F-G   H-J-K (2B occupied so we have three of four DEFG and HJK is avilable )
+so total 4 of them is available
+
+for empty string with the 1 row should return 3.
+
+
+for Soultion please check the ClassPass.py
