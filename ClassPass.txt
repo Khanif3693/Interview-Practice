@@ -1,4 +1,4 @@
-#This question was asked in an interview of ClassPass.
+
 "' Question: We are given a Number N and a string with space separated as shown below. The Number represents
 the number of rows in a seat arrangement in a plane and strings represents the seats already occupied or booked. 
 We have to asked to book a seat for a family of three members and they all want their seats nearby. We have seat arrangement
