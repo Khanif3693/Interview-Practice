@@ -1,0 +1,7 @@
+This contains the details of the code time.py
+In the file time.py  input can be any time in 24 hour time. Example, 11:20, 02:30, 00:01 etc
+and output should be a time can be written using the same digits as input but should come before the input time.
+Example, assume input time is 
+for input 11:10 --> outout should be 11:01
+12:20  --> 12:12
+02:33--> 02:32
