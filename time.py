@@ -1,3 +1,5 @@
+#Please read the time.txt for the details
+
 def solution(S):
     S = S.replace(":", "")
     ls = []
