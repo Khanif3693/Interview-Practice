@@ -1,3 +1,5 @@
+#plese read classPass.txt for details of this program.
+
 def solution(N,S):
     strng=S.split(" ") #Split given string
     avlbl=int(3*N) #Total seats 
