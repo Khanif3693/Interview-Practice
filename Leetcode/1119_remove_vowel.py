@@ -1,9 +1,9 @@
  def removeVowels(self, S):
-        vowels=['a','e','i','o','u']
-        res=""
-        for x in S:
-            if x in vowels:
-                continue
-            else:
-                res=res+x
-        return res
+   hashset = {'a','e','i','o','u'}
+        for char in S:
+            if char in hashset:
+                S = S.replace(char, "")
+        return S
+       
+       
+      
