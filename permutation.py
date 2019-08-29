@@ -12,3 +12,6 @@ string = "ABC"
 n = len(string) 
 a = list(string) 
 permute(a, 0, n-1) 
+
+
+#Output ABC ACB BAC BCA CBA CAB
