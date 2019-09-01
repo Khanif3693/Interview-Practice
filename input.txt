@@ -1,0 +1,2 @@
+s=abacdefg
+t=ab abc def cd abcd
