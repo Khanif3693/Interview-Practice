@@ -1,0 +1,6 @@
+ def titleToNumber(self, s):
+        characters=" ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        res=0
+        for index,char in enumerate(s[::-1]):
+            res+=pow(26,index)*characters.index(char)
+        return res
